@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1376352658 source:d:\my documents\codeblocks\attiny85_i2c_binaryclock\fuse.c
+	<avr/io.h>
+
+1376373163 source:d:\my documents\codeblocks\attiny85_i2c_binaryclock\main.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	<compat/twi.h>
+	<avr/power.h>
+	"hc4094.h"
+	"rs232_debug.h"
+
+1376372893 source:d:\my documents\codeblocks\avr libraries\rs232_debug.c
+	<avr/io.h>
+	<util/delay.h>
+	"rs232_debug.h"
+
+1376372864 d:\my documents\codeblocks\avr libraries\rs232_debug.h
+
+1376373113 source:d:\my documents\codeblocks\avr libraries\hc4094.c
+	<avr/io.h>
+	"hc4094.h"
+
+1376373085 d:\my documents\codeblocks\avr libraries\hc4094.h
+
