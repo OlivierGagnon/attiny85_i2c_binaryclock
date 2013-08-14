@@ -50,14 +50,22 @@
 			<Add after="srec_cat $(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).fuse -Intel -crop 0x01 0x02 -offset -0x01 -O $(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).hfs -Intel " />
 			<Add after="srec_cat $(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).fuse -Intel -crop 0x02 0x03 -offset -0x02 -O $(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).efs -Intel " />
 		</ExtraCommands>
-		<Unit filename="../AVR Libraries/hc4094.c">
+		<Unit filename="../AVRLibraries/DS1307.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../AVR Libraries/hc4094.h" />
-		<Unit filename="../AVR Libraries/rs232_debug.c">
+		<Unit filename="../AVRLibraries/DS1307.h" />
+		<Unit filename="../AVRLibraries/SoftI2C.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../AVR Libraries/rs232_debug.h" />
+		<Unit filename="../AVRLibraries/SoftI2C.h" />
+		<Unit filename="../AVRLibraries/hc4094.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../AVRLibraries/hc4094.h" />
+		<Unit filename="../AVRLibraries/rs232_debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../AVRLibraries/rs232_debug.h" />
 		<Unit filename="fuse.c">
 			<Option compilerVar="CC" />
 		</Unit>

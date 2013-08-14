@@ -24,3 +24,45 @@
 
 1376373085 d:\my documents\codeblocks\avr libraries\hc4094.h
 
+1376352658 source:c:\users\gagno\documents\codeblocks\attiny85_i2c_binaryclock\fuse.c
+	<avr/io.h>
+
+1376412424 source:c:\users\gagno\documents\codeblocks\attiny85_i2c_binaryclock\main.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	<compat/twi.h>
+	<avr/power.h>
+	"hc4094.h"
+	"SoftI2C.h"
+	"DS1307.h"
+	"rs232_debug.h"
+
+1376412300 source:c:\users\gagno\documents\codeblocks\avrlibraries\hc4094.c
+	<avr/io.h>
+	"hc4094.h"
+
+1376412311 c:\users\gagno\documents\codeblocks\avrlibraries\hc4094.h
+
+1376372893 source:c:\users\gagno\documents\codeblocks\avrlibraries\rs232_debug.c
+	<avr/io.h>
+	<util/delay.h>
+	"rs232_debug.h"
+
+1376372864 c:\users\gagno\documents\codeblocks\avrlibraries\rs232_debug.h
+
+1376411999 source:c:\users\gagno\documents\codeblocks\avrlibraries\ds1307.c
+	<avr/io.h>
+	<util/delay.h>
+	"SoftI2C.h"
+	"DS1307.h"
+
+1376412108 c:\users\gagno\documents\codeblocks\avrlibraries\ds1307.h
+
+1376411534 source:c:\users\gagno\documents\codeblocks\avrlibraries\softi2c.c
+	<avr/io.h>
+	<util/delay.h>
+	"SoftI2C.h"
+
+1376411379 c:\users\gagno\documents\codeblocks\avrlibraries\softi2c.h
+
